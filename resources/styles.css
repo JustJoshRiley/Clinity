@@ -38,7 +38,6 @@ nav {
 #beginning {
     height: 75vh;
     width: 100%;
-    /* background-color: #e1f4f3; */
     background-color: #18BBAF;
 }
 #first-part {
@@ -46,13 +45,12 @@ nav {
     width: 85%;
     padding: 60px 35px 35px 35px;
     z-index: 5;
-    margin-left: 20%;
 }
 #info-1 {
     width: 100vw;
     height: 50vh;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 35%;
     align-content: center;
     z-index: 5;
 }
@@ -86,7 +84,8 @@ nav {
 #info-header-three {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    margin-top: 2%;
+    font-size: 1.25rem;
     font-weight: normal;
 }
 #info-button {
@@ -101,7 +100,7 @@ nav {
 	text-decoration:none;
     text-shadow:0px 0px 6px #2f6627;
     border:none;
-    margin-top: -10%;
+    margin-top: -13%;
 }
 #info-button:hover {
     background-color:#e1f4f3;
@@ -183,6 +182,12 @@ nav {
     z-index: 1;
 }
 /* end of the clock  */
+#partition {
+    width: 100%;
+    height: 10vh;
+    background-color: #a7d7c5;
+
+}
 #info-2 {
     width: 100vw;
     height: 100vh;
@@ -190,12 +195,12 @@ nav {
 #info-2-flex {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    background-color: #a7d7c5;
+    justify-content: center;
 }
 #box-circle {
-    margin-top: 10%;
     width: 50%;
-    height: auto;
     background-color: #74b49b;
     z-index: 0;
     border-radius: 100%;
@@ -207,8 +212,6 @@ nav {
 #info-header-2 {
     text-align: center;
     display: flex;
-    width: 20%;
-    height: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
@@ -218,8 +221,6 @@ nav {
 #info-header-3 {
     text-align: center;
     display: flex;
-    width: 20%;
-    height: 22%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
@@ -230,8 +231,6 @@ nav {
     text-align: center;
     display: flex;
     flex-direction: row;
-    width: 20%;
-    height: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
@@ -239,11 +238,11 @@ nav {
     
 }
 #second-image {
-    margin-top: 10%;
     width: 50%;
     height: auto;
     border-radius: 100%;
-    /* margin-left: 5%; */
+    border-color: #a7d7c5;
+    border-width: 10px;
 }
 #middle-2 {
     position: absolute;
@@ -252,3 +251,59 @@ nav {
     display: flex;
     align-content: center;
 }
+.features {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.first-half {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* margin: 5%; */
+    /* justify-content: space-between; */
+}
+#communication {
+    height: 50vh;
+    width: 45%;
+    margin: 5%;
+    box-shadow: 0 7px 30px -10px
+    rgba(150,170,180,0.5);
+}
+#medicine {
+    height: 50vh;
+    width: 45%;
+    margin: 5%;
+    box-shadow: 0 7px 30px -10px
+    rgba(150,170,180,0.5);
+}
+.second-half {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* margin: 5%; */
+
+    /* justify-content: space-between; */
+}
+#bill-pay {
+    height: 50vh;
+    width: 45%;
+    margin: 10%;
+    box-shadow: 0 7px 30px -10px
+    rgba(150,170,180,0.5);
+}
+#contact-less {
+    height: 50vh;
+    width: 45%;
+    margin: 5%;
+    box-shadow: 0 7px 30px -10px
+    rgba(150,170,180,0.5);
+}
+
+/* bottom */
