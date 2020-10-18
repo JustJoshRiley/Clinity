@@ -1,11 +1,15 @@
-body {
+body, html {
     background-color: #f4f9f4;
     margin: 0%;
     scroll-behavior: smooth;
     width: 100vw;
     height: fit-content;
 }
+a:link, a:visited {
+    text-decoration:none;
+	color:#ffffff;
 
+}
 
 /* navigation */
 nav {
@@ -15,23 +19,26 @@ nav {
     display: fixed;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    z-index: 20;
 }
 #navigation-flex {
     display: flex;
     width: 100vw;
     justify-content: space-between;
+    position: fixed;
 }
 #header-left {
     display: flex;
     width: 50vw;
     margin-left: 21%;
-    margin-top: 1%;
-    
+    margin-top: .5%;
 }
 #header {
     font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
     font-size: 2.5rem;
     font-weight: bolder;
+    position: fixed;
 }
 #header-right {
     display: flex;
@@ -44,12 +51,12 @@ nav {
 	color:#ffffff;
 	font-family:Georgia;
 	font-size:20px;
-	padding:5px 10px;
+	padding:10px 10px;
 	text-decoration:none;
     text-shadow:0px 0px 6px #2f6627;
     border:none;
-    margin-top: 20%;
-    margin-left: -30%;
+    margin-top: 5%;
+    margin-left: -25%;
 }
 #header-button-1:hover {
     background-color:#e1f4f3;
@@ -86,12 +93,11 @@ nav {
     display: flex;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.5em;
-    margin-top: 8%;
-    font-size: 46px;
+    margin-top: 15%;
+    font-size: 44px;
     width:85%;
     font-weight: 500;
-    margin-left: -8%;
-    text-align: center;
+    text-align: left;
 }
 #info-header-three {
     display: flex;
@@ -103,9 +109,11 @@ nav {
     font-weight: 500;
     justify-content: center;
     font-size: 1.25rem;
-    text-align: center;
+    text-align: left;
     color: #2b2e2b;
+    text-decoration: none;
 }
+
 #info-button {
     position: relative;
     background-color:#a7d7c5;
@@ -118,8 +126,7 @@ nav {
 	text-decoration:none;
     text-shadow:0px 0px 6px #2f6627;
     border:none;
-    margin-top: -13%;
-    margin-left: 22%;
+    margin-top: -18%;
 }
 #info-button:hover {
     background-color:#e1f4f3;
@@ -135,6 +142,7 @@ nav {
     width: 90%;
     height: 45vh;
     margin-top: 2.25%;
+    /* background-attachment: fixed; */
 }
 #middle-2 {
     margin-left: 0%;
@@ -148,7 +156,6 @@ nav {
     background-color: #a7d7c5;
     justify-content: center;
     box-shadow: 6px 7px  #3b5a57;
-
 }
 #text-easy-you {
     text-align: center;
@@ -324,5 +331,173 @@ nav {
     width: 90%;
     height: 90%;
 }
+/* second half  */
+#second-half {
+    height: 85vh;
+    width: 82%;
+    background-color: #f4f9f4;
+    margin-left: 8.5%;
+    margin-top: 3%;
+    border-radius: 320px;
+    z-index: -1;
+}
+
+/* form  */
+.form {
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    background-color: #ebecf0;
+    width: 45vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 320px;
+    z-index: 1;
+}
+.get-in-touch {
+    margin-top: 12%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#form-rect-background {
+    border-radius: 320px;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 55%;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 5;
+    
+}
+#form-text {
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    background-color: #ebecf0;
+    width: 75vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 320px;
+    z-index: 0;
+    box-shadow: 5px 6px  #3b5a57;
+
+}
+.form-text {
+    margin-left: 40%;
+    margin-top: 8%;
+    text-align: left;
+    width: 20vw;
+}
+.form-text-p {
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+}
+.button-submit,
+input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+}
+label {
+    display: block;
+    margin-bottom: 24px;
+    width: 50%;
+}
+input {
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, 
+    inset -1px -1px 2px #fff;
+}
+.button-submit {
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button-submit:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+.red:active {
+    box-shadow: inset 1px 1px 2px #babecc, 
+    inset -1px -1px 2px #fff;
+}
+.button-submit{
+    display: block;
+    width: 50%;
+    color: #ae1100;
+}
 
 /* footer */
+#footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 12px;
+    border-top: solid;
+    align-self: center;
+    border-color: #3b5a57;
+    margin-top: 2%;
+    border-width: .5ch;
+}
+#footer-form {
+    display: flex;
+}
+#footer-input {
+    margin-top: 2.5%;
+    width: 15vw;
+}
+#footer-header {
+    margin-left: 25%;
+    text-align: right;
+}
+.button-footer-submit {
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+    width: 15vw;
+    height: 5vh;
+    margin-top: 1%;
+
+}
+.button-footer-submit:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
