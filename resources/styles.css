@@ -5,6 +5,8 @@ body {
     width: 100vw;
     height: fit-content;
 }
+
+
 /* navigation */
 nav {
     background-color:#18BBAF;
@@ -22,21 +24,41 @@ nav {
 #header-left {
     display: flex;
     width: 50vw;
-    margin-left: 17%;
+    margin-left: 21%;
     margin-top: 1%;
+    
 }
 #header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 #header-right {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 50vw;
 }
 #header-button-1 {
-    margin-right: 2%;
+    background-color:#a7d7c5;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:20px;
+	padding:5px 10px;
+	text-decoration:none;
+    text-shadow:0px 0px 6px #2f6627;
+    border:none;
+    margin-top: 20%;
+    margin-left: -30%;
 }
+#header-button-1:hover {
+    background-color:#e1f4f3;
+}
+#header-button-1:active {
+    position:relative;
+	top:1px;
+}
+
 /* first section  */
 #beginning {
     height: 75vh;
@@ -98,7 +120,6 @@ nav {
     border:none;
     margin-top: -13%;
     margin-left: 22%;
-
 }
 #info-button:hover {
     background-color:#e1f4f3;
@@ -126,8 +147,9 @@ nav {
     height: 150vh;
     background-color: #a7d7c5;
     justify-content: center;
-}
+    box-shadow: 6px 7px  #3b5a57;
 
+}
 #text-easy-you {
     text-align: center;
     display: flex;
@@ -169,7 +191,6 @@ nav {
     color: #495850;
     margin-top: 20%;
     margin-left: 10%;
-
 }
 
 #info-header-3 {
@@ -211,7 +232,6 @@ nav {
 #doctor {
     text-align: left;
     width: 45%;
-
 }
 #you {
     text-align: left;
@@ -221,52 +241,88 @@ nav {
 
 /* Card with png  */
 #middle-2 {
-    position: relative;
     width: 100vw;
     height: 75%;
     display: flex;
-    align-content: center;
-    margin-top: 2.25%;
+    margin-top: 15%;
+    align-items: center;
 }
 .features {
-    height: 75vh;
+    height: 85vh;
     width: 100vw;
-    background-color: rgb(3, 175, 175);
-    border-width: 20px;
+    background-color: teal;
+}
+#second-intro-header {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: 10%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: normal;
 }
 .first-half {
-    margin-top: 5%;
-    height: 60vh;
-    width: 75vw;
+    margin-top: 2.5%;
+    margin-left: 8.5%;
+    height: 75vh;
+    width: 82%;
     display: flex;
-    background-color: teal;
+    background-color: rgb(3, 175, 175);
+    align-items: center;
+    justify-content: center;
 }
 #communication {
     text-align: center;
-    height: 50vh;
-    width: 50%;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#communication-header {
+    font-size: 1.5rem;
+    width: 15vw;
+
 }
 #contact-less {
     text-align: center;
-    height: 50vh;
-    width: 45%;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-header {
+    font-size: 1.5rem;
+    width: 15vw;
+
 }
 #medicine {
     text-align: center;
-    height: 50vh;
-    width: 45%;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+#medicine-header {
+    font-size: 1.5rem;
+    width: 15vw;
+}
+
 #productivity-image {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 #contact-image {
-    width: 80%;
-    height: 80%;  
+    width: 90%;
+    height: 90%;  
 }
 #medicine-image {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 
 /* footer */
