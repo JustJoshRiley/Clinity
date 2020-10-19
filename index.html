@@ -10,7 +10,7 @@
             <nav>
                 <div id="navigation-flex" >
                     <section id="header-left">
-                        <header id="header">Clinity</header>
+                        <header id="header" ><a href="#beginning">Clinity</a></header>
                     </section>
                     <section id="heder-right">
                         <button id="header-button-1" ><a href="#segment">Free Consultation</a></button>
@@ -34,7 +34,7 @@
             </div>
             <section id="info-2">
                 <div id="info-2-flex">
-                    <div id="text-easy-doctor">
+                    <div class="fade" id="text-easy-doctor">
                         <h2 id="doctor">Everyday tasks at one glance</h2>
                         <p id="doctor-content">
                             We know your day is busy, so we organized it for you. 
@@ -42,7 +42,7 @@
                         </p>
                         <img id="doctor-image" src="./resources/images/Screen Shot 2020-10-17 at 1.11.46 PM.png">
                     </div>
-                    <div id="text-easy-you">
+                    <div class="fade" id="text-easy-you">
                         <h2 id="you">where your essentials, accessible.</h2>
                         <p id="patient-content">
                             You won't forget those important documents at home 
@@ -54,15 +54,16 @@
                 <section id="middle-2">
                     <div class="features">
                         <h1 id="second-intro-header">Clinity is a one shop stop for...</h1>
+                        
                         <div class="first-half">
-                            <section id="communication">
+                            <section class="fade" id="communication">
                                 <img id="productivity-image"src="./resources/images/chart.png">
                                 <h1 id="communication-header">
                                     Reduce overhead costs and boost efficiency.
                                 </h1>
                             </section>
                             
-                            <section id="contact-less">
+                            <section class="fade" id="contact-less">
                                 <img id="contact-image" src="./resources/images/video_call.png">
                                 <h1 id="contact-header">
                                     Conduct real-time video visits. 
@@ -118,14 +119,22 @@
                                 <label>
                                     <input id="footer-input" type="email" placeholder="Email Address"/>
                                 </label>
-                                <button class="button-footer-submit" type="button"><i class="icon ion-md-lock"></i> Submit</button>
+                                <button class="button-footer-submit" type="button"><i class="icon ion-md-lock"></i> Join the Waitlist</button>
                             </div>
-                            <h3 id="footer-header">Developed By Joshua W. Riley</h3>
+                            <div id="footer-text">
+                            <h2 id="footer-header">Developed By Joshua W. Riley</h2>
+                            <h3>About Clinity</h3>
+                            <p>
+                                Clinity offers a unique wellness experience for patients and doctors, 
+                                by providing the best clear, easy, medical practice.
+                            </p>
+                            </div>
                         </footer>
                     </div>
                 </section>
             </section>
         </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./resources/script.js"></script>
     </body>
 </html>
