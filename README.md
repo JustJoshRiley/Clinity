@@ -12,10 +12,7 @@ your chosen practice. We aim to make online payment more transparent, scheduling
 and even chat with your doctor to answer questions for those with curiosity.
 
 # The Product:
-<img src="./resources/images/Screen Shot 2020-10-18 at 5.19.27 PM"
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”/>
+<img src="./resources/images/Screen Shot 2020-10-18 at 5.19.27 PM">
 
 <img src="./resources/images/Screen Shot 2020-10-18 at 5.19.42 PM">
 
@@ -26,3 +23,5 @@ style=“margin-right: 10px;”/>
 <img src="./resources/images/Screen Shot 2020-10-18 at 5.20.21 PM">
 
 <img src="./resources/images/Screen Shot 2020-10-18 at 5.20.29 PM">
+
+<img src="https://github.com/JustJoshRiley/Clinity/blob/main/resources/images/Screen%20Shot%202020-10-17%20at%201.11.15%20PM.png">
