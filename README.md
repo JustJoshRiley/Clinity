@@ -1,6 +1,8 @@
 # Clinity
 Putting Medical Information and how its Handled Into the Palm of Your Hand. We make clinical work a breeze with Clinity.
 
+ https://justjoshriley.github.io/Clinity/
+
 # Project Motivation
 
 If you have ever been to a doctors office, checked in after making an appointment,
