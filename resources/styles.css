@@ -514,6 +514,20 @@ a.button-footer-submit {
 #footer-footer {
     font-size: .5rem;
 }
+#links {
+    display: flex;
+}
+#footer-links {
+    font-size: 2em;
+    height: 3vh;
+    width: 10vw;
+    background-color: lightcoral;
+    text-align: center;
+    border: rgb(180, 97, 97);
+    border-style: solid;
+    margin-left: 2%;
+}
+
 
 /* fade  */
 .fade {
