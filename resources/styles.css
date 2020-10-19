@@ -7,8 +7,7 @@ body, html {
 }
 a:link, a:visited {
     text-decoration:none;
-	color:#ffffff;
-
+	color:inherit;
 }
 
 /* navigation */
@@ -492,6 +491,9 @@ input:focus {
     height: 5vh;
     margin-top: 1%;
     justify-content: center;
+}
+a.button-footer-submit {
+    color: inherit;
 }
 .button-footer-submit:hover {
     box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
