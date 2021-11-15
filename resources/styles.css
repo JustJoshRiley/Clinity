@@ -139,8 +139,8 @@ nav {
 /* Section two */
 #info-2 {
     width: 90%;
-    height: 65vh;
-    margin-top: 2.25%;
+    height: 100%;
+    margin-top: 5.25%;
     /* background-attachment: fixed; */
 }
 #middle-2 {
@@ -151,7 +151,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 150vh;
+    height: 100%;
     background-color: #a7d7c5;
     justify-content: center;
     box-shadow: 6px 7px  #3b5a57;
@@ -245,8 +245,8 @@ nav {
 }
 /* Card with png  */
 #middle-2 {
-    width: 100vw;
-    height: 75%;
+    width: 100%;
+    height: auto;
     display: flex;
     margin-top: 15%;
     align-items: center;
@@ -331,13 +331,16 @@ nav {
 }
 /* second half  */
 #second-half {
-    height: 85vh;
-    width: 82%;
+    height: 100%;
     background-color: #f4f9f4;
-    margin-left: 8.5%;
-    margin-top: 3%;
+    left: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
     border-radius: 320px;
     z-index: -1;
+    /* display: flex; */
+    /* justify-content: center; */
+    
 }
 /* form  */
 .form {
@@ -345,7 +348,7 @@ nav {
     margin-top: 1.5%;
     margin-left: 2.5%;
     background-color: #ebecf0;
-    width: 45vw;
+    width: 45%;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -363,7 +366,7 @@ nav {
 #form-rect-background {
     border-radius: 320px;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     margin-top: 55%;
     display: flex;
     flex-direction: row-reverse;
